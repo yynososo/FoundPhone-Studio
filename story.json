@@ -1,0 +1,615 @@
+{
+  "scriptVersion": 1,
+  "id": "fubinyan-qinyuan",
+  "title": "琴房里的四芒星",
+  "description": "你在琴房角落捡到付彬言的手机。锁屏弹出的不是消息，是一条心率警报。",
+  "revision": 1,
+  "phone": {
+    "owner": "付彬言",
+    "date": "2026-11-02",
+    "time": "21:41",
+    "wallpaper": "sage",
+    "battery": 63,
+    "network": "5G"
+  },
+  "installedApps": [
+    "phone",
+    "messages",
+    "contacts",
+    "photos",
+    "notes",
+    "calendar",
+    "clock",
+    "music",
+    "health",
+    "settings",
+    "wechat"
+  ],
+  "contacts": [
+    {
+      "id": "lihaoyu",
+      "name": "李浩宇",
+      "phone": "13800001001",
+      "bio": "篮球队。表戴着，别摘。"
+    },
+    {
+      "id": "xuabo",
+      "name": "徐安博",
+      "phone": "13800001002",
+      "bio": "篮球队。体力只够撑半场。"
+    },
+    {
+      "id": "chijia",
+      "name": "池嘉",
+      "phone": "13800001003",
+      "bio": "篮球队。第二节换上去的那个人。"
+    },
+    {
+      "id": "gucyang",
+      "name": "顾晨阳",
+      "phone": "13800001004",
+      "bio": "篮球队。"
+    },
+    {
+      "id": "zhouyang",
+      "name": "周扬",
+      "phone": "13800001005",
+      "bio": "篮球队。被战术管得最多的那个。"
+    },
+    {
+      "id": "wlj",
+      "name": "王璐洁",
+      "phone": "13800001006",
+      "bio": "高一。乐团小提琴。"
+    },
+    {
+      "id": "doctor",
+      "name": "张医生",
+      "phone": "13800001007",
+      "bio": "心内科。循序渐进，不可以爬楼。"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-basketball",
+      "app": "wechat",
+      "title": "宜北篮球社·战术讨论组（6）",
+      "participants": ["owner", "lihaoyu", "xuabo", "chijia", "gucyang", "zhouyang"],
+      "messages": [
+        {
+          "id": "grp-1",
+          "senderId": "lihaoyu",
+          "body": "彬言，明天训练你来吗",
+          "time": "2026-11-01 22:14"
+        },
+        {
+          "id": "grp-2",
+          "senderId": "owner",
+          "body": "来。战术板我带。",
+          "time": "2026-11-01 22:15"
+        },
+        {
+          "id": "grp-3",
+          "senderId": "xuabo",
+          "body": "你能不能上来打五分钟，就五分钟",
+          "time": "2026-11-01 22:16"
+        },
+        {
+          "id": "grp-4",
+          "senderId": "owner",
+          "body": "[文件] 第三套边路轮转.pdf",
+          "kind": "file",
+          "time": "2026-11-01 22:17"
+        },
+        {
+          "id": "grp-5",
+          "senderId": "owner",
+          "body": "池嘉，你第二节替徐安博。他体力撑不到下半场。",
+          "time": "2026-11-01 22:17"
+        },
+        {
+          "id": "grp-6",
+          "senderId": "zhouyang",
+          "body": "付彬言你是我妈吗",
+          "time": "2026-11-01 22:18"
+        },
+        {
+          "id": "grp-7",
+          "senderId": "owner",
+          "body": "你妈不会给你画战术。",
+          "time": "2026-11-01 22:19"
+        },
+        {
+          "id": "grp-8",
+          "senderId": "chijia",
+          "body": "[表情包：收到.jpg] 药箱我放更衣室左边柜子了，你记得吃",
+          "time": "2026-11-01 22:20"
+        }
+      ]
+    },
+    {
+      "id": "chat-wlj",
+      "app": "wechat",
+      "title": "王璐洁",
+      "participants": ["owner", "wlj"],
+      "messages": [
+        {
+          "id": "wlj-1",
+          "senderId": "owner",
+          "body": "手机是你捡到的吧。谢谢。",
+          "time": "2026-11-03 19:42",
+          "hidden": true
+        },
+        {
+          "id": "wlj-2",
+          "senderId": "owner",
+          "body": "你今天在琴房拉的《沉思》，第三小节手抖了。",
+          "time": "2026-11-05 23:07",
+          "hidden": true
+        },
+        {
+          "id": "wlj-3",
+          "senderId": "owner",
+          "body": "我以前也抖。现在不拉了。",
+          "time": "2026-11-05 23:08",
+          "hidden": true
+        },
+        {
+          "id": "wlj-4",
+          "senderId": "owner",
+          "body": "第三套战术的边路，你说得对。",
+          "time": "2026-11-08 01:33",
+          "hidden": true
+        },
+        {
+          "id": "wlj-5",
+          "senderId": "owner",
+          "body": "你比我想的会看球。",
+          "time": "2026-11-08 01:34",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-doctor",
+      "app": "wechat",
+      "title": "张医生",
+      "participants": ["owner", "doctor"],
+      "messages": [
+        {
+          "id": "doc-1",
+          "senderId": "doctor",
+          "body": "下周复查带上心率日志。循序渐进，不可以爬楼。",
+          "time": "2026-10-28 10:12"
+        },
+        {
+          "id": "doc-2",
+          "senderId": "owner",
+          "body": "如果我只打十分钟，可以吗？",
+          "time": "2026-10-28 20:03"
+        },
+        {
+          "id": "doc-3",
+          "senderId": "doctor",
+          "body": "先把这次的复查做完。密码还是你第一次进医院的日子：0312。",
+          "time": "2026-10-28 20:15"
+        }
+      ]
+    }
+  ],
+  "content": {
+    "health": [
+      {
+        "id": "h-resting",
+        "title": "静息心率",
+        "body": "48 次/分。低于正常区间，提示：心动过缓，建议复查。",
+        "time": "2026-11-02 08:00",
+        "sender": "健康"
+      },
+      {
+        "id": "h-spike",
+        "title": "运动心率 · 红色标记",
+        "body": "142 次/分。超出安全区间。记录时间：10月30日，一段楼梯。",
+        "time": "2026-10-30 17:20",
+        "sender": "健康"
+      },
+      {
+        "id": "h-appointment",
+        "title": "复诊预约",
+        "body": "首都医院 心内科 周三下午。备注：医生说，不可以爬楼。",
+        "time": "2026-11-01 09:00",
+        "sender": "健康"
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-practice",
+        "title": "无标题",
+        "body": "今天在琴房看到有人拉《沉思》，拉到第三小节手会抖。我没有告诉她，我也一样。",
+        "time": "2026-10-25 22:30",
+        "sender": "付彬言"
+      },
+      {
+        "id": "note-tactics",
+        "title": "战术笔记",
+        "body": "边路轮转的三种变体。池嘉的体力分配：第二节上，撑六分钟，换周扬。徐安博只打首发上半场。",
+        "time": "2026-11-01 21:00",
+        "sender": "付彬言"
+      },
+      {
+        "id": "note-tenmin",
+        "title": "无标题",
+        "body": "如果我只打十分钟。",
+        "time": "2026-10-29 23:40",
+        "sender": "付彬言",
+        "password": "0312",
+        "hidden": true
+      },
+      {
+        "id": "note-final",
+        "title": "学妹的留言",
+        "body": "付彬言，你坐在场边画战术板的样子，不比任何人差。但如果你哪天想上场投一个球，我可以帮你看着心率。",
+        "time": "2026-11-10 22:00",
+        "sender": "王璐洁",
+        "hidden": true
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-star",
+        "title": "四芒星",
+        "body": "手机壳背面的贴纸，拍得很糊。",
+        "kind": "image",
+        "time": "2026-09-12 15:00",
+        "sender": "付彬言"
+      },
+      {
+        "id": "photo-board",
+        "title": "战术板",
+        "body": "第三套边路轮转，画了三遍。",
+        "kind": "image",
+        "time": "2026-11-01 22:30",
+        "sender": "付彬言"
+      },
+      {
+        "id": "photo-silhouette",
+        "title": "琴房",
+        "body": "她拉琴的时候，手也会抖。但她在台上。",
+        "kind": "image",
+        "time": "2026-10-25 22:00",
+        "sender": "付彬言",
+        "hidden": true
+      }
+    ],
+    "wechat": [
+      {
+        "id": "moment-chen",
+        "title": "陈浚铭",
+        "body": "回宜北看看。篮球场还是那个篮球场。",
+        "sender": "陈浚铭",
+        "folder": "朋友圈",
+        "likes": 12,
+        "time": "2026-11-06 18:00"
+      },
+      {
+        "id": "moment-final",
+        "title": "付彬言",
+        "body": "（一张四芒星的照片）收到。",
+        "sender": "付彬言",
+        "folder": "朋友圈",
+        "likes": 36,
+        "time": "2026-11-10 23:00",
+        "hidden": true
+      }
+    ]
+  },
+  "variables": {
+    "affection": 0,
+    "route": ""
+  },
+  "events": [
+    {
+      "id": "start",
+      "label": "捡到手机",
+      "type": "start",
+      "actions": [
+        { "type": "notification", "key": "", "value": "心率监测：静息心率异常，建议休息" }
+      ]
+    },
+    {
+      "id": "read-health",
+      "label": "发现心率秘密",
+      "event": "read",
+      "target": "h-resting",
+      "once": true,
+      "actions": [
+        { "type": "unlock", "key": "note-tenmin", "value": true },
+        { "type": "notification", "key": "", "value": "备忘录里多了一条上锁的笔记" }
+      ]
+    },
+    {
+      "id": "read-note-practice",
+      "label": "《沉思》",
+      "event": "read",
+      "target": "note-practice",
+      "once": true,
+      "actions": [
+        { "type": "variable", "key": "affection", "value": 1 },
+        { "type": "notification", "key": "", "value": "备忘录里写的那个人，是你" }
+      ]
+    },
+    {
+      "id": "read-group-last",
+      "label": "群聊的最后一条",
+      "event": "read",
+      "target": "grp-8",
+      "once": true,
+      "actions": [
+        { "type": "unlock", "key": "wlj-1", "value": true },
+        { "type": "notification", "key": "", "value": "王璐洁：手机是你捡到的吧。谢谢。" }
+      ],
+      "next": ["wait-reply"]
+    },
+    {
+      "id": "wait-reply",
+      "label": "他知道是你捡到的",
+      "event": "read",
+      "target": "wlj-1",
+      "next": ["reply-choice"]
+    },
+    {
+      "id": "reply-choice",
+      "label": "怎么回他？",
+      "type": "choice",
+      "next": ["reply-yes", "reply-star", "reply-heart"]
+    },
+    {
+      "id": "reply-yes",
+      "label": "只回了一个嗯",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "silent" },
+        { "type": "variable", "key": "affection", "value": 1 }
+      ],
+      "next": ["days-pass"]
+    },
+    {
+      "id": "reply-star",
+      "label": "问他四芒星",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "direct" },
+        { "type": "variable", "key": "affection", "value": 1 }
+      ],
+      "next": ["days-pass"]
+    },
+    {
+      "id": "reply-heart",
+      "label": "直接问他心率",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "direct" },
+        { "type": "variable", "key": "affection", "value": 2 }
+      ],
+      "next": ["days-pass"]
+    },
+    {
+      "id": "days-pass",
+      "label": "几天后的深夜",
+      "type": "delay",
+      "delayMs": 800,
+      "actions": [
+        { "type": "date", "key": "", "value": "2026-11-05" },
+        { "type": "time", "key": "", "value": "23:07" },
+        { "type": "unlock", "key": "wlj-2", "value": true },
+        { "type": "unlock", "key": "wlj-3", "value": true },
+        { "type": "notification", "key": "", "value": "他主动说起了《沉思》" }
+      ]
+    },
+    {
+      "id": "read-wlj-practice",
+      "label": "他也知道你手抖",
+      "event": "read",
+      "target": "wlj-3",
+      "once": true,
+      "actions": [
+        { "type": "unlock", "key": "photo-silhouette", "value": true },
+        { "type": "variable", "key": "affection", "value": 1 }
+      ]
+    },
+    {
+      "id": "read-spike",
+      "label": "红色心率记录",
+      "event": "read",
+      "target": "h-spike",
+      "once": true,
+      "actions": [
+        { "type": "notification", "key": "", "value": "那段楼梯，他不该爬" }
+      ]
+    },
+    {
+      "id": "read-moment-chen",
+      "label": "他被球砸到的那天",
+      "event": "read",
+      "target": "moment-chen",
+      "once": true,
+      "next": ["hit-choice"]
+    },
+    {
+      "id": "hit-choice",
+      "label": "他蹲在地上，你怎么办？",
+      "type": "choice",
+      "next": ["hit-direct", "hit-silent", "hit-indirect"]
+    },
+    {
+      "id": "hit-direct",
+      "label": "第一个跑过去问他",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "direct" },
+        { "type": "variable", "key": "affection", "value": 2 }
+      ],
+      "next": ["night-talk"]
+    },
+    {
+      "id": "hit-silent",
+      "label": "把水和药箱先备好",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "silent" },
+        { "type": "variable", "key": "affection", "value": 1 }
+      ],
+      "next": ["night-talk"]
+    },
+    {
+      "id": "hit-indirect",
+      "label": "在群里先替他挡掉上场请求",
+      "type": "action",
+      "actions": [
+        { "type": "variable", "key": "route", "value": "indirect" },
+        { "type": "variable", "key": "affection", "value": 1 }
+      ],
+      "next": ["night-talk"]
+    },
+    {
+      "id": "night-talk",
+      "label": "深夜的战术消息",
+      "type": "delay",
+      "delayMs": 800,
+      "actions": [
+        { "type": "date", "key": "", "value": "2026-11-08" },
+        { "type": "time", "key": "", "value": "01:33" },
+        { "type": "unlock", "key": "wlj-4", "value": true },
+        { "type": "unlock", "key": "wlj-5", "value": true },
+        { "type": "variable", "key": "affection", "value": 2 }
+      ]
+    },
+    {
+      "id": "read-night",
+      "label": "你比我想的会看球",
+      "event": "read",
+      "target": "wlj-5",
+      "once": true,
+      "next": ["final-note"]
+    },
+    {
+      "id": "final-note",
+      "label": "他要走了",
+      "type": "delay",
+      "delayMs": 800,
+      "actions": [
+        { "type": "date", "key": "", "value": "2026-11-10" },
+        { "type": "time", "key": "", "value": "22:00" },
+        { "type": "unlock", "key": "note-final", "value": true },
+        { "type": "unlock", "key": "moment-final", "value": true },
+        { "type": "notification", "key": "", "value": "备忘录里多出了一条学妹的留言" }
+      ],
+      "next": ["read-final-note"]
+    },
+    {
+      "id": "read-final-note",
+      "label": "那条留言，发不发？",
+      "event": "read",
+      "target": "note-final",
+      "next": ["ending-choice"]
+    },
+    {
+      "id": "ending-choice",
+      "label": "离开之前，你选哪一种告别？",
+      "type": "choice",
+      "next": ["end-a", "end-b", "end-c"]
+    },
+    {
+      "id": "end-a",
+      "label": "没写完，删掉了",
+      "type": "ending",
+      "actions": [
+        { "type": "ending", "key": "", "value": "结局A · 未说出口的暗号：他转学后，你们偶尔还聊乐团、聊战术。某天他发来一段钢琴弹的《沉思》前奏，后面跟着一句：你教我的那版指法，我一直没改。" }
+      ]
+    },
+    {
+      "id": "end-b",
+      "label": "原样留在备忘录里",
+      "type": "ending",
+      "actions": [
+        { "type": "ending", "key": "", "value": "结局B · 另一种并肩：半年后他回宜北看一场比赛，没有上场，坐在你旁边。散场时他轻声说：下次复诊，要不要一起来。医生说我可以开始慢跑了。" }
+      ]
+    },
+    {
+      "id": "end-c",
+      "label": "把那句没说出口的话写进琴盒",
+      "type": "ending",
+      "actions": [
+        { "type": "ending", "key": "", "value": "结局C · 远方的回响：很多年后你在音乐节的台上看到他。他拉完一首曲子，对着话筒说：这首歌写给一个人。她在我最不想被看见的时候，看见了我。" }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "路线A-沉默",
+      "steps": [
+        { "event": "read", "target": "h-resting" },
+        { "event": "read", "target": "note-practice" },
+        { "event": "read", "target": "grp-8" },
+        { "event": "read", "target": "wlj-1" },
+        { "choose": "reply-yes" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-3" },
+        { "event": "read", "target": "h-spike" },
+        { "event": "read", "target": "moment-chen" },
+        { "choose": "hit-silent" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-5" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "note-final" },
+        { "choose": "end-a" }
+      ],
+      "ending": "结局A · 未说出口的暗号：他转学后，你们偶尔还聊乐团、聊战术。某天他发来一段钢琴弹的《沉思》前奏，后面跟着一句：你教我的那版指法，我一直没改。",
+      "expectUnlocked": ["note-tenmin", "wlj-1", "photo-silhouette", "note-final", "moment-final"]
+    },
+    {
+      "name": "路线B-直球",
+      "steps": [
+        { "event": "read", "target": "h-resting" },
+        { "event": "read", "target": "note-practice" },
+        { "event": "read", "target": "grp-8" },
+        { "event": "read", "target": "wlj-1" },
+        { "choose": "reply-heart" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-3" },
+        { "event": "read", "target": "h-spike" },
+        { "event": "read", "target": "moment-chen" },
+        { "choose": "hit-direct" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-5" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "note-final" },
+        { "choose": "end-b" }
+      ],
+      "ending": "结局B · 另一种并肩：半年后他回宜北看一场比赛，没有上场，坐在你旁边。散场时他轻声说：下次复诊，要不要一起来。医生说我可以开始慢跑了。",
+      "expectUnlocked": ["note-tenmin", "wlj-1", "photo-silhouette", "note-final", "moment-final"]
+    },
+    {
+      "name": "路线C-迂回",
+      "steps": [
+        { "event": "read", "target": "h-resting" },
+        { "event": "read", "target": "note-practice" },
+        { "event": "read", "target": "grp-8" },
+        { "event": "read", "target": "wlj-1" },
+        { "choose": "reply-star" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-3" },
+        { "event": "read", "target": "h-spike" },
+        { "event": "read", "target": "moment-chen" },
+        { "choose": "hit-indirect" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "wlj-5" },
+        { "advanceMs": 800 },
+        { "event": "read", "target": "note-final" },
+        { "choose": "end-c" }
+      ],
+      "ending": "结局C · 远方的回响：很多年后你在音乐节的台上看到他。他拉完一首曲子，对着话筒说：这首歌写给一个人。她在我最不想被看见的时候，看见了我。",
+      "expectUnlocked": ["note-tenmin", "wlj-1", "photo-silhouette", "note-final", "moment-final"]
+    }
+  ]
+}
